@@ -1,0 +1,67 @@
+.section-1-container{
+    width: 100%;
+    min-height: 300px; 
+    display: flex;
+    justify-content: space-between;
+
+    .intro-text-container{
+        height: 300px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    
+        .shooting-stars{
+            width: 173px;
+            height: 28px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-left: 125px ;
+           
+        }
+        
+        .intro-section{
+            max-width: 635px;
+            width: 100%;
+            min-height: 191px;
+            font-size: 40px;
+            font-family: 'Mulish', sans-serif;
+            line-height: 60px;
+            margin-left: 125px;
+            
+        }
+    }
+    
+    
+    .motivation-container{
+        width: 40%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    
+        .motivation{
+            width: 207px;
+            height: 23px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .motivation-border{
+            border-top: 1px solid black;
+        }
+    }
+    
+}
+
+
+
+    
+
+
+
+
+
